@@ -1,0 +1,14 @@
+package com.chien.tb.binhchien.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class AppRoleSearchDto extends SearchDto{
+    private String roleName;
+}
