@@ -24,4 +24,10 @@ public class AppUser extends BaseObject{
 
     @Column(name = "enabled", length = 1, nullable = false)
     private boolean enabled;
+
+    @Column(name = "email", nullable = false)
+    private String email;
+
+    @Column(name = "phone_number", nullable = false)
+    private String phoneNumber;
 }
